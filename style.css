@@ -1,0 +1,583 @@
+body{
+    margin: 0px;
+    font-family: GretaSansStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+
+.topbar{
+    height: 58px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.125rem;
+    color: #000;
+    font-family:monospace;
+    font-size: 15px;
+    font-weight: bold;
+    position:fixed;
+    width: 100%;
+}
+.topbar:hover{
+    cursor: pointer;
+}
+.topcharecter:hover{
+    color: #0074e8;
+}
+.topcomic:hover{
+    color: #0074e8;
+}
+.topmovieandtv:hover{
+    color: #0074e8;
+}
+.topgames:hover{
+    color: #0074e8;
+}
+.topnews:hover{
+    color: #0074e8;
+}
+.topvideo:hover{
+    color: #0074e8;
+}
+.topshop:hover{
+    color: #0074e8;
+}
+.topcommunity:hover{
+    color: #0074e8;
+}
+.topmore:hover{
+    color: #0074e8;
+}
+
+.logodc{
+    margin-top: 5px;
+    margin-left: 99.6px;
+}
+.logodcimage{
+    width: 40px;
+    height: 40px;
+
+}
+.searchbutton{
+    border-radius: 46px;
+    border-style: groove;
+    width: 366px;
+    height: 31px;
+    border-color: antiquewhite;
+    margin-left: 10px;
+
+}
+.body001{
+    background-image: url(https://static.dc.com/2023-11/DC.com_20231113_InkSpots_StaticUAN_Marquee_3x1_.jpg?w=1200);
+    background-repeat: no-repeat;
+    height: 626px;
+    background-size:100%;
+    color: #fff;
+    margin-top: -9px;
+
+}
+.text1{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 7px;
+    font-size: 18px;
+
+}
+.text2{
+    margin-top: -6px;
+    margin-left: 4px;
+    font-size: 25px;
+    font-weight: 800;
+
+
+}
+.text3{
+    margin-top: 7px;
+    margin-left: 8px;
+    font-size: 15px;
+    margin-bottom: 24px;
+
+}
+.textdiv{
+    margin-top: 10px;
+    padding-top: 217px;
+    margin-left: 105px;
+    display: flex;
+    flex-direction: column;
+}
+.letsbutton{
+    color: #000;
+    font-size: 11px;
+    border-radius: 30px;
+    width: 207px;
+    height: 36px;
+    font-weight: 600;
+    border-color: aliceblue;
+}
+.letsbutton:hover{
+    color: #fff;
+    background-color: #0074e8;
+    cursor: pointer;
+    border-style: none;
+    
+}
+.body002{
+ height: 660px;
+ display: flex;
+ justify-content: space-evenly;
+ height: 565px;
+ text-align: center;
+
+}
+.card1{
+    width: 20%;
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    box-shadow: 0 0 5px;
+}
+.card2{
+    width: 20%;
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 0 0 5px;
+}
+.card3{
+    width: 20%;
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 0 0 5px;
+}
+.card4{
+    width: 20%;
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+}
+.imagesize{
+    object-fit: contain;
+    width: 100%;
+}
+.uppertext{
+    font-family: BlinkMacSystemFont;
+    margin-top: 20px;
+    color: rgb(172, 170, 166);
+}
+.middletext{
+    font-weight:900;
+}
+.lowerbutton1,.lowerbutton2,.lowerbutton3,.lowerbutton4{
+    font-weight: 500;
+    height: 40px;
+    background-color: #fff;
+    border-color: rgb(188, 186, 184);
+    border-radius: 50px;
+    align-self: baseline;
+}
+
+.lowerbutton4:hover{
+    background-color: #0074e8;
+    color: #fff;
+    border-style: none;
+}
+.lowerbutton3:hover{
+    background-color: #0074e8;
+    color: #fff;
+    border-style: none;
+    
+}
+.lowerbutton2:hover{
+    background-color: #0074e8;
+    color: #fff;
+    border-style: none;
+}
+.lowerbutton1:hover{
+    background-color: #0074e8;
+    color: #fff;
+    border-style: none;
+}
+.lowerbutton1{
+    margin-top: 20px;
+}
+.lowerbutton2{
+    margin-top: 45px;
+}
+.lowerbutton3{
+    margin-top: 40px;
+}
+.lowerbutton4{
+    margin-top: 12px;
+}
+.card1,.card2,.card3,.card4:hover{
+    cursor: pointer;
+
+}
+.body003{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.body004{
+    margin-top: 100px;
+}
+
+.videosection{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.textsection{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.trailersection {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.trailer001{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5;
+    margin-top: 0%;
+    box-shadow: 0 0 5px;
+
+}
+.trailer001:hover{
+    cursor: pointer;
+}
+.picsection{
+    height: 162px;
+}
+.descsection{
+    height: 40px;
+    text-align: center;
+
+}
+.secondtext{
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+}
+.firsttext{
+    font-size: 24px;
+}
+.heading{
+    margin-left: 120px;
+}
+.trailerimage{
+    width: 100%;
+
+}
+.toptext{
+    color: rgb(172, 170, 166);
+}
+.downtext{
+    font-weight: 900;
+    padding-top: 0%;
+}
+.body005{
+    margin-top: 60px;
+}
+.halloweenimage{
+ margin-top: 60px;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+.halloweenimagesize{
+    width: 100%;
+    height: 100%;
+}
+.halloweenimage:hover{
+    cursor: pointer;
+}
+
+.body006{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.buttosection{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+
+}
+
+.button001{
+    width:200px;
+    font-weight: 500;
+    height:35px;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 60px;
+
+}
+.button001:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #0074e8;
+    border-style: none;
+}
+.body007{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    justify-content: center;
+
+}
+.card007,.img007{
+    height: 400px;
+    margin-right: 10px  ;
+}
+.card007:hover{
+    cursor: pointer;
+}
+.body008{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.text008{
+    font-size: 35px;
+    font-weight: 900;
+}
+.body0081{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.car008{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+  
+
+}
+.imgpart008{
+    height: 50%;
+
+}
+.img008{
+    height: 250px;
+    width: 250px;
+}
+.text0081{
+height: 30%;
+text-align: center;
+font-size: 25px;
+
+}
+.button008{
+    height: 20%;
+
+}
+.addtocart{
+    margin-left:50px;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    background-color:#0074e8;
+    color: #fff;
+    border-radius: 30px;
+    border-color: antiquewhite;
+
+}
+.addtocart:hover{
+cursor: pointer;
+background-color: #514a92;
+}
+.body009{
+    margin-top: 100px;
+    background-image: url(image/bgimage.jpg);
+    height: 364px;
+}
+.textarea009{
+    margin-left: 177px;
+    padding-top: 80px;
+    color: #fff;
+
+}
+.button009{
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 40px;
+    font-weight: 700;
+    height: 35px;
+}
+.button009:hover{
+    background-color: #0074e8;
+    cursor: pointer;
+    border-style: none;
+}
+.body009:hover{
+    cursor: pointer;
+}
+.body0010{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.textsec0010{
+ width: 70%;
+}
+.buttonsec0010{
+ width: 30%;
+}
+.button0010{
+    margin-top: 20px;
+    margin-left: 36px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    height: 46px;
+    width: 170px;
+}
+.button0010:hover{
+    cursor: pointer;
+    background-color: #0074e8;
+    color: #fff;
+    border-style: none;
+}
+.body0011{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px,10px;
+    object-fit: cover;
+
+}
+.card011{
+    display: flex;
+    flex-direction: column;
+
+}
+.imagepart011{
+    height: fit-content;
+
+}
+.textpart011{
+text-align: center;
+margin-bottom: 10px;
+padding-top: 0px;
+}
+.card011:hover{
+    cursor: pointer;
+}
+.image011{
+    width: min-content;
+    height: 283px;
+}
+.toptext011{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(135, 139, 142);
+}
+.downtext011{
+    font-weight: 800;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer1{
+    background: linear-gradient(90deg,#2a0541,#5816bd);
+    display:flex ;
+    flex-direction:row;
+
+}
+.foottextpat{
+    margin-top: 113px;
+    margin-left: 49px;
+    color: #fff;
+
+}
+.signupbutton{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 40px;
+    height: 47px;
+    width: 146px;
+    font-weight: 600;
+}
+.signupbutton:hover{
+    cursor: pointer;
+    background-color: #0074e8;
+    border-style: none;
+}
+
+.footer2{
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer22{
+    display: flex;
+    flex-direction: row;
+}
+.lastbutton{
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    border-right: 0.125rem solid #fff;
+}
+.lastbutton_last{
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+    font-size: 15px;
+
+}
+.lastbutton_last:hover,.lastbutton:hover{
+cursor: pointer;
+color: #0074e8;
+}
+
+
+
+
+
+
